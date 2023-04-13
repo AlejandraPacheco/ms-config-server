@@ -1,0 +1,56 @@
+server:
+  port: 8888
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:AlejandraPacheco/server-config.git
+          ignoreLocalSshSettings: true
+          hostKey: AAAAB3NzaC1yc2EAAAADAQABAAABgQDExLdJxP3sDovhb+72muXWshOhWwyzlaDbQwM/r/mmzuJns2MtFsyY9JPWWCZWSgihmKADvVJuv0+Y3sjnLTwaHowINsWskNFw0KnYc8cneMReXpcmH0eNthjo8ppnZHWg1vIdBNReVuhPio88CYL0G8aOgZh5di7gLQAJkLKQDnkgAPYLayKOz7/UcR+hCHfo11JK3OsOdQyaNB2YH2/4IPPSUbtHwhmJzC5B7awfmTmlHQKj5oKKsUYcWMLQp4n5fP4UhsWS/JYWS5weMGMN3adiWXYfY0Flf6IwkatQBvlQPD+D4YDWAkv4FNZb5211CqsboOfXzIj5+V0m0XtRoUMSVUCvHSltXDe5prMXJKVODDAe0YppuvkoNs6yIuYv0ObdVGFTHt2ofg4ijLQ2YTzclOx9d2+TKbU2I9ogaFtvzGeoIHidIRuJS3GO2+xQ97v1b/lpfKkwv5eX10f0Nuej4DrVum7HF23kjefOSf2OHiVOYO6XFZUwasmJvqU= ale@ale-Satellite-M645
+          hostKeyAlgorithm: ssh-rsa
+          privateKey: |
+            -----BEGIN OPENSSH PRIVATE KEY-----
+            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
+            -----END OPENSSH PRIVATE KEY-----
+  application:
+    name: ms-config-server
+
+encrypt:
+  key: 9][fjvj!@#$%^&*()jfe"-=\],c
